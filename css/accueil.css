@@ -1,0 +1,57 @@
+body{
+  background-color: #274454;
+}
+.logoBe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh; 
+} 
+.logoBe img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.menu{
+  margin-left: 40%;
+  margin-bottom: 5%;
+  padding:2px 10px 2px 10px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #274454;
+  font-family:Arial, Helvetica, sans-serif;
+  border-image: linear-gradient(to bottom, #69BB58, #198d83) 3;
+}
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #69BB58, #198d83);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(to bottom, #69BB58, #198d83) 3;
+}
+footer{
+  background-color: rgba(189, 184, 184, 0.336);
+  text-align: center;
+  padding-top: 3%;
+  width:100%;
+}
+footer a{
+  text-decoration: none;
+}
+h2 , h1{
+  margin-top: 50px;
+  color: #fd5c02;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50;
+}
+table{
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid #fd5c02;
+  border-radius: 5px;
+  padding-bottom: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
